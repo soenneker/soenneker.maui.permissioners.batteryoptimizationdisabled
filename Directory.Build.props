@@ -1,0 +1,7 @@
+<Project>
+  <!-- Keep Android resource paths within Windows toolchain path limits. -->
+  <PropertyGroup Condition="'$(MSBuildProjectName)' == 'Soenneker.Maui.Permissioners.BatteryOptimizationDisabled'">
+    <BaseIntermediateOutputPath>$(MSBuildThisFileDirectory)obj/library/</BaseIntermediateOutputPath>
+    <DefaultItemExcludes>$(DefaultItemExcludes);obj/**;bin/**</DefaultItemExcludes>
+  </PropertyGroup>
+</Project>
